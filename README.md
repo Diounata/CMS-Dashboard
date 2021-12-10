@@ -18,6 +18,10 @@
 It is a dashboard application built during a frontend job test. It wasn't built so well because of time, it'd be better if I did it with more time.
 </p>
 
+<p>I should make some charts in the app, but I don't even know how to do it. Maybe in the future I try to do it</p>
+
+<p>You can visit the app clicking <a href='https://cms-dashboard.vercel.app/'>here</a></p>
+
 ## :books: Technologies
 
 This project was made using the following techs:
