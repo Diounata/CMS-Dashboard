@@ -1,0 +1,27 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 3rem;
+
+  background: var(--section-bg);
+
+  box-shadow: 7px 0 2px 0 rgba(221, 224, 225, 0.1);
+
+  h1 {
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    background: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+}

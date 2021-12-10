@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+
+  background: #ecf0f1;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding: 1.5rem 2rem;
+  }
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 1.8em;
+}
+
+:root {
+  --primary-color: #f39c12;
+  --section-bg: #ffffff;
+  --text: #131313;
+}

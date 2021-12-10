@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  > div {
+    background: var(--section-bg);
+    border-radius: 10px;
+
+    padding: 1.2rem 1.4rem;
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      margin-bottom: 1rem;
+
+      h1 {
+        font-weight: 500;
+        font-size: 1.2em;
+      }
+
+      span {
+        opacity: 0.6;
+        font-size: 0.9em;
+      }
+    }
+  }
+}

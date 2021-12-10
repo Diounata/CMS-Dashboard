@@ -1,0 +1,64 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .inputContainer {
+    label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    width: 18rem;
+    box-shadow: 7px 0 2px 0 rgba(221, 224, 225, 0.1);
+
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+
+    font-size: 1rem;
+    color: rgba(13, 13, 13, 0.4);
+
+    background: var(--section-bg);
+
+    input {
+      border: none;
+      width: 100%;
+      outline: none; // not good
+    }
+  }
+
+  > div {
+    display: flex;
+    gap: 1.4rem;
+
+    font-size: 1.5rem;
+
+    .bellContainer {
+      display: grid;
+      place-items: center;
+
+      position: relative;
+
+      div {
+        width: 0.65rem;
+        height: 0.65rem;
+
+        background: var(--primary-color);
+        border-radius: 50px;
+
+        position: absolute;
+        top: -5%;
+        right: 0;
+      }
+    }
+
+    svg {
+      cursor: pointer;
+
+      &:hover {
+        color: var(--primary-color);
+      }
+    }
+  }
+}

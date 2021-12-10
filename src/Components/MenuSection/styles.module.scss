@@ -1,0 +1,25 @@
+.sectionContainer {
+  margin-top: 2rem;
+  font-size: 1.2em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+
+  .selected {
+    color: var(--primary-color);
+  }
+}
